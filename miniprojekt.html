@@ -1,0 +1,72 @@
+'<!--
+
+  Poziom kursu Frontend Developer: 1
+
+  Mini projekt na GitHub w technologiach SCSS, JS, GIT. Formularz rejestracji występuje w każdej aplikacji, w której logują się użytkownicy.
+
+  Linki do nauki:
+  1. https://www.youtube.com/watch?v=tvHVafvw16Y&list=PLj-pbEqbjo6AKsJ8oE2pvIqsb15mxdrxs&index=1
+  2. https://www.youtube.com/watch?v=di6QQ_r2kIA&list=PLj-pbEqbjo6AKsJ8oE2pvIqsb15mxdrxs&index=2
+  3. https://www.youtube.com/watch?v=F9KUeui1Yxk&list=PLj-pbEqbjo6AKsJ8oE2pvIqsb15mxdrxs&index=3
+  4. https://www.youtube.com/watch?v=ddKdHzDMmCo&list=PLj-pbEqbjo6AKsJ8oE2pvIqsb15mxdrxs&index=4
+  5. https://www.youtube.com/watch?v=1FYcBILi8zQ&list=PLj-pbEqbjo6AKsJ8oE2pvIqsb15mxdrxs&index=5
+  6. https://www.youtube.com/watch?v=p2YoPTRq3vU&list=PLj-pbEqbjo6AKsJ8oE2pvIqsb15mxdrxs&index=6
+  7. https://www.youtube.com/watch?v=n5LraFxdLBI&list=PLj-pbEqbjo6AKsJ8oE2pvIqsb15mxdrxs&index=7
+
+  Zadania samodzielne: 
+  1. Utwórz nowe repozytorium na GitHubie. Sklonuj je do lokalnego folderu.
+  2. Utwórz branch develop (git checkout -b develop), a następne kolejne branche do każdego zadania poniżej.
+  3. Utwórz branch TASK1 (git checkout -b TASK1) i wykonaj projekt w HTML i SCSS zgodnie z grafiką:
+  https://onaircode.com/wp-content/uploads/2017/11/Material-Design-Log-in-Sign-up.jpg. 
+  4. Dodaj własne style według uznania - fonty, kolory, style formularza. Dodaj wersję mobile.
+  5. Zakomituj i spuszuj. 
+  6. Utówrz branch TASK2 (git checkout -b TASK2) i dodaj walidację formularz w JS. 
+  7. Uzupełnij plik Readme.md (dodaj do niego link do repozytorium).
+  8. Zakomituj i spuszuj.
+  9. Wróć na branch master i wykonaj polecenie "git merge TASK2". Spuszuj. Twój kod powien być na głównej gałęzi projektu na zdalnym repozytorium.
+  10. Dodaj link do repozytorium poniżej.
+  11. Spakuj projekt do pliku zip / rar i prześlij jako rozwiązanie zadania.
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="main-box">
+				<div class="text-box">
+					<h2>Have an account?</h2>
+					<button class="log-btn">Log in</button>
+				</div>
+				<div class="form-box">
+					<form class="form">
+						<div class="input-box">
+							<input class="input emailInput" placeholder="Email" />
+							<p class="error emailError"></p>
+						</div>
+						<div class="input-box">
+							<input class="input nameInput" placeholder="Full Name" />
+							<p class="error nameError">scccd</p>
+						</div>
+						<div class="input-box">
+							<input class="input userNameInput" placeholder="Username" />
+							<p class="error nameError"></p>
+						</div>
+						<div class="input-box">
+							<input class="input PasswordInput" placeholder="Password" />
+							<p class="error passwordError"></p>
+						</div>
+						<button class="btn">Sing up</button>
+					</form>
+				</div>
+			</div>
+		</header>
+	</body>
+</html>
