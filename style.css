@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.main-box {
+  position: relative;
+  width: 700px;
+  height: 400px;
+  background-color: rgb(154, 154, 226);
+}
+
+.form-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 30px;
+  bottom: -45px;
+  height: 500px;
+  width: 360px;
+  background-color: white;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.input-box {
+  height: 65px;
+}
+
+.input {
+  width: 300px;
+  height: 45px;
+  padding: 5px;
+}
+
+.error {
+  display: flex;
+  justify-content: flex-start;
+  height: 20px;
+  color: red;
+  font-size: 12px;
+}
+
+.btn {
+  height: 43px;
+  width: 100px;
+  background-color: rgb(107, 92, 92);
+  box-shadow: 3px 5px 35px 1px rgb(66, 68, 90);
+  color: white;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+.text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  height: 400px;
+  width: 300px;
+  color: white;
+}
+
+.log-btn {
+  height: 43px;
+  width: 100px;
+  background-color: rgb(154, 154, 226);
+  border: 2px solid white;
+  color: white;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.log-btn:hover {
+  opacity: 0.6;
+}
+
+.header {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}/*# sourceMappingURL=style.css.map */
